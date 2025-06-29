@@ -68,7 +68,7 @@ https://github.com/jupyter/notebook
 Код и описание проекта находится репозитории: https://github.com/chulyukin/spark-simple-parquet .  
 *Время выполнения* - 40 мин.
 #### [Шаг 10. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. ](steps/stp_10.md)
-Еще один демо-проект Scala Spark для сборщика SBT Aassembly. Приложение "Parquetor" - конвертер файлов формата parquet в формат csv с консольным оконным интерфейсом. Код и описание проекта находится репозитории: [https://github.com/chulyukin/spark-simple-parquet](https://github.com/chulyukin/parquetor_spark) .  
+Еще один демо-проект Scala Spark для сборщика SBT Aassembly. Приложение "Parquetor" - конвертер файлов формата parquet в формат csv с консольным оконным интерфейсом. Код и описание проекта находится репозитории: https://github.com/chulyukin/parquetor_spark .  
 *Время выполнения* - 55 мин.  
 
 ## В результате выполнения шагов:
