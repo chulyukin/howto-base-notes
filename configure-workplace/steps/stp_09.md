@@ -59,7 +59,7 @@ git clone https://github.com/chulyukin/spark-simple-parquet.git
 В файле версия sbt для сборки проекта. Если не задать нужную версию, то будет применяться установленная по умолчанию, а это может привести к сбою сборки из-за несовместимостей.
 Пример заполнения:
 ```scala
-sbt.version = 1.10.11
+sbt.version = 1.11.2
 ```
 
 **build.sbt**  
@@ -70,7 +70,7 @@ import sbt.Keys.organization
 
 ThisBuild / version := "0.1.1" // Здесь задать версию сборки проекта
  
-ThisBuild / scalaVersion := "2.12.19"  // Здесь задать версию scala для сборки
+ThisBuild / scalaVersion := "2.12.20"  // Здесь задать версию scala для сборки
 
 lazy val root = (project in file("."))
   .settings(
@@ -79,9 +79,9 @@ lazy val root = (project in file("."))
   ) // Организация и имя приложения (в данном случае исполняемый файл будет иметь имя <appliction name>-assembly-0.1.1.jar  )
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % "3.5.5",
-  "org.apache.spark" %% "spark-sql" % "3.5.5"
-) // Зависимости, которые нужно загрузить для использования Spark 3.5.5
+  "org.apache.spark" %% "spark-core" % "3.5.6",
+  "org.apache.spark" %% "spark-sql" % "3.5.6"
+) // Зависимости, которые нужно загрузить для использования Spark 3.5.6
  
 assembly / assemblyMergeStrategy := {
   case PathList("META-INF", "services", _*) => MergeStrategy.concat
