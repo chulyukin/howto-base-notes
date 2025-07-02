@@ -23,7 +23,7 @@ deactivate
 ```scala
 import org.apache.spark.sql.SparkSession
 
-val warehouseDir = "~/WORKSHOP/SCALA_TOREE/warehouse"
+val warehouseDir = "warehouse"
 val spark = SparkSession.builder()
             .appName("My custom Spark")
             .master("local[2]")
