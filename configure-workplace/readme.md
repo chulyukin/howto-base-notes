@@ -42,7 +42,7 @@ Scala — язык программирования, основанный на J
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
 SBT - это система автоматической сборки для проектов, написанных на языках Scala и Java. Подробнее можно прочитать в https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html.  
 *Время выполнения* - 5 мин.
-#### [Шаг 4. IntelliJ IDEA. Установка, настройка и тестовые проект](steps/stp_04.md)
+#### [Шаг 4. IntelliJ IDEA. Установка, настройка и тестовые проекты](steps/stp_04.md)
 **IntelliJ IDEA** - это кросс-платформенная среда разработки, созданная компанией JetBrains, очень удобная для реализации Scala - проектов. https://www.jetbrains.com/idea/  
 *Время выполнения* - 20 мин.
 #### [Шаг 5. Apache Spark. Установка](steps/stp_05.md)
