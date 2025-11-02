@@ -17,7 +17,7 @@ sudo apt install openjdk-17-jdk
 **Проверка версии**
 ```console
 java --version
-# openjdk 17.0.15 2025-04-15
-# OpenJDK Runtime Environment (build 17.0.15+6-Ubuntu-0ubuntu125.04)
-# OpenJDK 64-Bit Server VM (build 17.0.15+6-Ubuntu-0ubuntu125.04, mixed mode, sharing)
+# openjdk 17.0.17-ea 2025-10-21
+# OpenJDK Runtime Environment (build 17.0.17-ea+8-Ubuntu-1)
+# OpenJDK 64-Bit Server VM (build 17.0.17-ea+8-Ubuntu-1, mixed mode, sharing)
 ```
