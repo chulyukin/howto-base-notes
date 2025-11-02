@@ -79,11 +79,7 @@ ls target/scala-2.13
 **Результат выполнения:**
 ![alt text](stp_04_pic/stp_04_idea_scr_07.png "ColorHelloScala run")   
 
-Исполняемый файл можно посмотреть также в инструменте **"Terminal**  
-```console
-ls target/scala-2.13
-```
-и запустить на исполнение
+Исполняемый файл можно посмотреть также в инструменте **"Terminal** (*ls target/scala-2.13*) и запустить на исполнение
 ```console
 scala target/scala-2.13/colorhelloscala_2.13-0.1.0.jar
 ```
