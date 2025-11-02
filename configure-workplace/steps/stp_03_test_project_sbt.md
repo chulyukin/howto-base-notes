@@ -13,7 +13,7 @@ nano build.sbt
 ```sbt
 name := "HelloSBT"
 version := "1.0"
-scalaVersion := "2.12.20"
+scalaVersion := "2.13.16"
 ```
 **Файл HelloSBT.scala:**
 ```console
@@ -29,30 +29,26 @@ object HelloSBT extends App {
 ```sbt
 sbt run
 ```
-Будет произведена сборка, создан исполняемый файл **hellosbt_2.12-1.0.jar** (по пути  ~/SBTProjects/sbt_test_project/target/scala-2.12/),а так же будет произведен запуск файла и вывод строки: "Hello SBT!"
+Будет произведена сборка, создан исполняемый файл **hellosbt_2.13-1.0.jar** (по пути  ~/SBTProjects/sbt_test_project/target/scala-2.13/),а так же будет произведен запуск файла и вывод строки: "Hello SBT!"
 ```sbt
-[info] Updated file /home/user/SBTProjects/sbt_test_project/project/build.properties: set sbt.version to 1.11.2
-[info] welcome to sbt 1.11.2 (Ubuntu Java 17.0.15)
+[info] welcome to sbt 1.11.7 (Ubuntu Java 17.0.17-ea)
 [info] loading project definition from /home/user/SBTProjects/sbt_test_project/project
 [info] loading settings for project sbt_test_project from build.sbt...
 [info] set current project to HelloSBT (in build file:/home/user/SBTProjects/sbt_test_project/)
-[info] compiling 1 Scala source to /home/user/SBTProjects/sbt_test_project/target/scala-2.12/classes ...
-https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.10.7/util-interface…
-  100,0% [##########] 4,3 KiB (71,1 KiB / s)
-[info] Non-compiled module 'compiler-bridge_2.12' for Scala 2.12.20. Compiling...
+[info] compiling 1 Scala source to /home/user/SBTProjects/sbt_test_project/target/scala-2.13/classes ...
 [info]   Compilation completed in 6.397s.
 [info] running HelloSBT 
 Hello SBT!
-[success] Total time: 8 s, completed 28 июн. 2025 г., 08:28:50
+[success] Total time: 2 s, completed 2 нояб. 2025 г., 16:34:53
 ```
 Так же можно воспользоваться интерактивным режимом
 ```console
 sbt
-# [info] welcome to sbt 1.11.2 (Ubuntu Java 17.0.15)
+# [info] welcome to sbt 1.11.7 (Ubuntu Java 17.0.17-ea)
 # [info] loading project definition from /home/user/SBTProjects/sbt_test_project/project
 # [info] loading settings for project sbt_test_project from build.sbt...
 # [info] set current project to HelloSBT (in build file:/home/user/SBTProjects/sbt_test_project/)
-# [info] sbt server started at local:///home/user/.sbt/1.0/server/86f76a119b15197de980/sock
+# ...
 # [info] started sbt server
 ```
 Далее ввести команду **run** (по окончании исполнении -  **exit**)
@@ -60,7 +56,7 @@ sbt
 sbt:HelloSBT> run
 [info] running HelloSBT 
 Hello SBT!
-[success] Total time: 0 s, completed 28 июн. 2025 г., 08:30:11
+[success] Total time: 2 s, completed 2 нояб. 2025 г., 16:40:46
 ```
 ```sbt
 sbt:HelloSBT> exit
@@ -68,6 +64,6 @@ sbt:HelloSBT> exit
 ```
 Запустить собранный **.jar** файл можно следующим образом
 ```console
-scala ~/SBTProjects/sbt_test_project/target/scala-2.12/hellosbt_2.12-1.0.jar
+scala ~/SBTProjects/sbt_test_project/target/scala-2.13/hellosbt_2.13-1.0.jar
 # Hello SBT!
 ```
