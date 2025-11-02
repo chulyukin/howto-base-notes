@@ -37,7 +37,7 @@ sudo snap install curl
 JDK (Java Development Kit) — это комплект инструментов, для создания и запуска приложений на Java (Scala, Spark и др. так же используют для исполнения JVM (Java Virtual Machine)). В текущем варианте рекомендуется именно версия 17.  
 *Время выполнения* - 5 мин.
 #### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
-Scala — язык программирования, основанный на Java. В данном случае устанавливается версия 2.12.20 (возможны вариации версии) для обеспечения совместимости с установкой Spark.  
+Scala — язык программирования, основанный на Java. В данном случае устанавливается версия 2.13.16 (возможны вариации версии) для обеспечения совместимости с установкой Spark.  
 *Время выполнения* - 5 мин.
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
 SBT - это система автоматической сборки для проектов, написанных на языках Scala и Java. Подробнее можно прочитать в https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html.  
@@ -76,7 +76,7 @@ https://github.com/jupyter/notebook
 |Git|2.51.0|Git - распределённая система управления версиями. Разработчик: Software Freedom Conservancy, SFC |Репозиторий: https://git.kernel.org/pub/scm/git/git.git|
 |Java|openjdk-17|Openjdk-17 - это (Open Java Development Kit) - это бесплатная реализация платформы Java Standard Edition (Java SE) с открытым исходным кодом |https://openjdk.org/|
 |Scala|2.13.16|Проверенная стабильная версия, хорошо совместима с OoenJDK-17 (в качестве альтернативы можно использовать 2.12.20 )|https://scala-lang.org/|
-|SBT|1.11.2| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
+|SBT|1.11.7| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
 |IntelliJ IDEA|2025.2|JetBrains IntelliJ IDEA Community Edition 2025.2 - Cреда разработки для реализации Scala - проектов )|https://www.jetbrains.com/idea/|
 |Apache Spark|3.5.6|Фреймворк с открытым исходным кодом для реализации распределённой обработки данных, входящий в экосистему проектов Hadoop. |https://spark.apache.org/|
 |Jupyter Notebook|7.4.3|Интерактивный блокнот для выполнения кода на различных языках программирования.|https://jupyter.org/|
