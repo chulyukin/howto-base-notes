@@ -22,14 +22,14 @@
 
 **Файл build.propeties**
 ```scala
-sbt.version = 1.11.2
+sbt.version = 1.11.7
 ```
 
 **Файл build.sbt** (*после каждой настройки не забыть оставить пустую строку*)
 ```scala
 ThisBuild / version := "0.1.0"
 
-ThisBuild / scalaVersion := "2.12.20"
+ThisBuild / scalaVersion := "2.13.16"
 
 lazy val root = (project in file("."))
   .settings(
