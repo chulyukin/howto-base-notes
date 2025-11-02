@@ -7,8 +7,8 @@
 |Name|ColorHelloSBTAssembly|
 |Build System|sbt|
 |JDK|17|
-|sbt|1.11.2|
-|Scala|2.12.20|
+|sbt|1.11.7|
+|Scala|2.13.16|
 |Download sources|Выбрано|
 |Add sample code|*по желанию*|  
 
