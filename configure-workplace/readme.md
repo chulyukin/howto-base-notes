@@ -36,7 +36,7 @@ sudo snap install curl
 #### [Шаг 1. Установка JDK (Openjdk-17)](steps/stp_01.md)
 JDK (Java Development Kit) — это комплект инструментов, для создания и запуска приложений на Java (Scala, Spark и др. так же используют для исполнения JVM (Java Virtual Machine)). В текущем варианте рекомендуется именно версия 17.  
 *Время выполнения* - 5 мин.
-#### [Шаг 2. Установка Scala 2.12](steps/stp_02.md)
+#### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
 Scala — язык программирования, основанный на Java. В данном случае устанавливается версия 2.12.20 (возможны вариации версии) для обеспечения совместимости с установкой Spark.  
 *Время выполнения* - 5 мин.
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
@@ -66,7 +66,7 @@ https://github.com/jupyter/notebook
 *Время выполнения* - 40 мин.
 #### [Шаг 10. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. ](steps/stp_10.md)
 Еще один демо-проект Scala Spark для сборщика SBT Aassembly. Приложение "Parquetor" - конвертер файлов формата parquet в формат csv с консольным оконным интерфейсом. Код и описание проекта находится репозитории: https://github.com/chulyukin/parquetor_spark .  
-*Время выполнения* - 55 мин.  
+*Время выполнения* - 50 мин.  
 
 ## В результате выполнения шагов:
 **Инструменты среды**
@@ -75,7 +75,7 @@ https://github.com/jupyter/notebook
 |Python3|Python 3.13.7|Версия уже установлена в Ubuntu, устанавливать не требуется, просто проверить|https://www.python.org/|
 |Git|2.51.0|Git - распределённая система управления версиями. Разработчик: Software Freedom Conservancy, SFC |Репозиторий: https://git.kernel.org/pub/scm/git/git.git|
 |Java|openjdk-17|Openjdk-17 - это (Open Java Development Kit) - это бесплатная реализация платформы Java Standard Edition (Java SE) с открытым исходным кодом |https://openjdk.org/|
-|Scala|2.12.20|Проверенная стабильная версия, хорошо совместима с OoenJDK-17 (в качестве альтернативы можно использовать 2.12.18 )|https://scala-lang.org/|
+|Scala|2.13.16|Проверенная стабильная версия, хорошо совместима с OoenJDK-17 (в качестве альтернативы можно использовать 2.12.20 )|https://scala-lang.org/|
 |SBT|1.11.2| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
 |IntelliJ IDEA|2025.2|JetBrains IntelliJ IDEA Community Edition 2025.2 - Cреда разработки для реализации Scala - проектов )|https://www.jetbrains.com/idea/|
 |Apache Spark|3.5.6|Фреймворк с открытым исходным кодом для реализации распределённой обработки данных, входящий в экосистему проектов Hadoop. |https://spark.apache.org/|
