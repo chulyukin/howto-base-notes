@@ -69,23 +69,23 @@ object Main extends App{
 ![alt text](stp_04_pic/stp_04_idea_scr_05.png "ColorHelloScala sbt shell")   
 
 Будет загружен сервер sbt, после чего необходимо ввести команду **"package"** или **"run"** 
-Команда **package**  произведет сборку проекта и в папке target/scala-2.12 появится исполняемый файл **colorhelloscala_2.12-0.1.0.jar**. Проверить это можно через вызов в терминале
+Команда **package**  произведет сборку проекта и в папке target/scala-2.13 появится исполняемый файл **colorhelloscala_2.13-0.1.0.jar**. Проверить это можно через вызов в терминале
 ```console
-ls target/scala-2.12
+ls target/scala-2.13
 ```
 ![alt text](stp_04_pic/stp_04_idea_scr_06.png "ColorHelloScala jar file")   
 
-Команда **run** произведет сборку проекта и запустит colorhelloscala_2.12-0.1.0.jar на исполнение.  
+Команда **run** произведет сборку проекта и запустит colorhelloscala_2.13-0.1.0.jar на исполнение.  
 **Результат выполнения:**
 ![alt text](stp_04_pic/stp_04_idea_scr_07.png "ColorHelloScala run")   
 
 Исполняемый файл можно посмотреть также в инструменте **"Terminal**  
 ```console
-ls target/scala-2.12
+ls target/scala-2.13
 ```
 и запустить на исполнение
 ```console
-scala target/scala-2.12/colorhelloscala_2.12-0.1.0.jar
+scala target/scala-2.13/colorhelloscala_2.13-0.1.0.jar
 ```
 **Пример экрана**  
 ![alt text](stp_04_pic/stp_04_idea_scr_08.png "ColorHelloScala execute")   
