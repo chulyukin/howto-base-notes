@@ -24,17 +24,17 @@
 
 **Файл plugins.sbt**
 ```scala
-addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.1.5")
+addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.3.0")
 ```
 **Файл build.propeties**
 ```scala
-sbt.version = 1.11.2
+sbt.version = 1.11.7
 ```
 **Файл build.sbt:**
 ```scala
 ThisBuild / version := "0.1.0"
 
-ThisBuild / scalaVersion := "2.12.20"
+ThisBuild / scalaVersion := "2.13.16"
 
 lazy val root = (project in file("."))
   .settings(
@@ -76,7 +76,7 @@ object ColorHelloSBTAssembly extends App{
 
 Далее можно выполнить собранный **.jar** из терминала:
 ```console
-java -jar target/scala-2.12/ColorHelloSBTAssembly-assembly-0.1.0.jar
+java -jar target/scala-2.13/ColorHelloSBTAssembly-assembly-0.1.0.jar
 ```
 **Результат:**
 ![alt text](stp_04_pic/stp_04_idea_scr_11.png "ColorHelloScala assembly")   
