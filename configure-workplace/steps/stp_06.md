@@ -70,8 +70,7 @@ python3 -m venv pydevenv
 source pydevenv/bin/activate
 python3 -m pip install ipykernel
 python -m ipykernel install --user --name=pydevenv --display-name "DevPython 3.1x"
-pip install pandas
-pip install fastparquet
+pip install pandas fastparquet matplotlib
 deactivate
 ```
 ![_kernel_devpython.ipynb](notebooks/DEVPYTHON/__kernel_devpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/DEVPYTHON/)  
@@ -82,7 +81,7 @@ python3 -m venv pymlenv
 source pymlenv/bin/activate
 python3 -m pip install ipykernel
 python -m ipykernel install --user --name=pymlenv --display-name "MLPython 3.1x"
-pip install pandas
+pip install pandas fastparquet matplotlib numpy scipy
 deactivate 
 ```
 ![_kernel_mlpython.ipynb](notebooks/MLPYTHON/__kernel_mlpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/MLPYTHON/)  
