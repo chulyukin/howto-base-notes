@@ -92,6 +92,7 @@ python3 -m venv pytorchenv
 source pytorchenv/bin/activate
 python3 -m pip install ipykernel
 python -m ipykernel install --user --name=pytorchenv --display-name "PyTorch"
+pip install pandas fastparquet matplotlib numpy scipy scikit-learn seaborn
 deactivate
 ```
 ![_kernel_pytorch.ipynb](notebooks/PYTORCH/__kernel_pytorch.ipynb) Notebook с установкой torch (положить в ~/WORKSHOP/MLPYTHON/)  
