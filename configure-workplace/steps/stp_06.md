@@ -81,7 +81,7 @@ python3 -m venv pymlenv
 source pymlenv/bin/activate
 python3 -m pip install ipykernel
 python -m ipykernel install --user --name=pymlenv --display-name "MLPython 3.1x"
-pip install pandas fastparquet matplotlib numpy scipy
+pip install pandas fastparquet matplotlib numpy scipy scikit-learn seaborn
 deactivate 
 ```
 ![_kernel_mlpython.ipynb](notebooks/MLPYTHON/__kernel_mlpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/MLPYTHON/)  
