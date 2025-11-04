@@ -104,6 +104,7 @@ source pysparkenv/bin/activate
 python3 -m pip install ipykernel
 python -m ipykernel install --user --name=pysparkenv --display-name "PySpark"
 pip install pyspark==3.5.6 # Установить PySpark 3.5.6
+pip install pandas fastparquet matplotlib 
 deactivate
 ```
 Установить переменные виртуального окружения
