@@ -6,7 +6,7 @@
 |Каталог|Дата|Комментарий|
 |:-|:-|:-|
 |[configure-workplace](configure-workplace/readme.md)|2025-06-08|Рабочая среда. Установка и конфигурирование.|
-|[pyspark-pandas-udf](configure-workplace/readme.md)|2025-11-23|PySpark pandas_udf. Примеры использования.|
+|[pyspark-pandas-udf](pyspark-pandas-udf/readme.md)|2025-11-23|PySpark pandas_udf. Примеры использования.|
 
 ```console
 .
