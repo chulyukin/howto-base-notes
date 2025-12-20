@@ -79,7 +79,7 @@ https://github.com/jupyter/notebook
 |SBT|1.11.7| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
 |IntelliJ IDEA|2025.2|JetBrains IntelliJ IDEA Community Edition 2025.2 - Cреда разработки для реализации Scala - проектов )|https://www.jetbrains.com/idea/|
 |Apache Spark|3.5.7|Фреймворк с открытым исходным кодом для реализации распределённой обработки данных, входящий в экосистему проектов Hadoop. |https://spark.apache.org/|
-|Jupyter Notebook|7.4.3|Интерактивный блокнот для выполнения кода на различных языках программирования.|https://jupyter.org/|
+|Jupyter Notebook|7.4.7|Интерактивный блокнот для выполнения кода на различных языках программирования.|https://jupyter.org/|
 |Scala Almond|0.14.1|Ядро Scala для Jupyter. Представляет собой оболочку Scala (Ammonite) для Jupyter|https://almond.sh/|
 |Apache Toree|0.5.0|Ядро Scala для Jupyter Notebook. Предоставляет механизм для интерактивного и удалённого доступа к Apache Spark.|https://toree.apache.org/|
 
