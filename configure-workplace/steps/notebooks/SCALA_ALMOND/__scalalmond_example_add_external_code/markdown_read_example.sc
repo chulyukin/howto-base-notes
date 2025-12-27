@@ -57,7 +57,7 @@ object RichMarkdownReader {
     )
   }
   /**
-   * Читает фвйл markdown, выводит статистику и содержание файла (630 символов)
+   * Читает файл markdown, выводит статистику и содержание файла (630 символов)
    * @param filePath путь и имя файла markdown
   */
   def displayEnhanced(filePath: String): Unit = {
