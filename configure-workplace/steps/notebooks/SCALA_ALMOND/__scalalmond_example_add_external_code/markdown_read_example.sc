@@ -58,7 +58,7 @@ object RichMarkdownReader {
   }
   /**
    * Читает фвйл markdown, выводит статистику и содержание файла (630 символов)
-   * @param filePath пкть и имя файла markdown
+   * @param filePath путь и имя файла markdown
   */
   def displayEnhanced(filePath: String): Unit = {
     val timestamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"))
