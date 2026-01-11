@@ -46,8 +46,8 @@ def fast_function(series: pd.Series) -> pd.Series:
 ## Notebooks
 |Notebook|Описание|
 |:-|:-|
-|[pyspark-pandas-udf](pyspark_pandas_udf_scalar.ipynb)|Пример использования скалярных pandas UDF |
-|Apache Spark|Пример использования групповых pandas UDF|
+|[pyspark-pandas-udf-scalar](pyspark_pandas_udf_scalar.ipynb)|Пример использования скалярных pandas UDF |
+|[pyspark-pandas-udf-grupped](pyspark_pandas_udf_grupped.ipynb)|Пример использования групповых pandas UDF|
 
 ## Requirements
 |Инструмент|Версия|Комментарий|Ресурс|
