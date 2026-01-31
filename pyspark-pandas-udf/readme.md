@@ -48,6 +48,7 @@ def fast_function(series: pd.Series) -> pd.Series:
 |:-|:-|
 |[pyspark-pandas-udf-scalar](pyspark_pandas_udf_scalar.ipynb)|Пример использования скалярных pandas UDF |
 |[pyspark-pandas-udf-grupped](pyspark_pandas_udf_grupped.ipynb)|Пример использования групповых pandas UDF|
+|[pyspark-pandas-udf-ML](pyspark_pandas_udf_ML.ipynb)|Пример использования pandas_udf для машинного обучения|
 
 ## Requirements
 |Инструмент|Версия|Комментарий|Ресурс|
