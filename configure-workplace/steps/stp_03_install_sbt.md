@@ -27,7 +27,7 @@ https://mvnrepository.com/artifact/org.scala-lang/toolkit
 ```bash
 Select a template: a
 Scala version (default: 3.3.4): 2.13.16
-Scala Toolkit version (default: 0.5.0): 0.3.0
+Scala Toolkit version (default: 0.5.0): 0.6.0
 ```
 Далее, после успешного запуска sbt - необходимо завершить его
 ```sbt
@@ -36,17 +36,16 @@ sbt:user> exit
 ## Проверка версии:
 ```console
 sbt -version
-# sbt version in this project: 1.11.7
-# sbt runner version: 1.11.7
+# sbt version in this project: 1.12.9
+# sbt runner version: 1.12.9
 ```
 ## Проверка запуска:
 ```console
 sbt 
-# [info] welcome to sbt 1.11.7 (Ubuntu Java 17.0.17-ea)
+# [info] welcome to sbt 1.12.9 (Ubuntu Java 17.0.18)
 # [info] loading project definition from /home/user/project
 # [info] loading settings for project user from build.sbt...
 # [info] set current project to user (in build file:/home/user/)
-# [info] sbt server started at local:///home/user/.sbt/1.0/server/a6551c9e04f4d49b7473/sock
 ```
 После успешного старта - вводим **exit**
 ```sbt
