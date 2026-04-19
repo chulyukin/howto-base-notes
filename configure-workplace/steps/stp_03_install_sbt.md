@@ -1,9 +1,5 @@
 # Настройка sbt
 
-_Файл нужно скопировать в папку по пути из сообщения:_
-```console
-cp sbt-launch-1.11.7.jar ~/.cache/sbt/boot/sbt-launch/1.11.7/sbt-launch-1.11.7.jar
-```  
 Вызвать команду:
 ```console
 sbt new
