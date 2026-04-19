@@ -14,5 +14,6 @@ sudo apt-get install sbt
 ```console
 sbt -version
 ```
+_По неизвестным причинам, файл **sbt-launch-....jar** не загружался. Определить, какой нужен файл, можно средствами команды **sbt -version** или **sbt**._  
 **[Решение проблем при установке и настройка sbt](stp_03_install_sbt.md)**  
 **[Сборка тестового проекта через sbt](stp_03_test_project_sbt.md)**  
