@@ -72,7 +72,7 @@ https://github.com/jupyter/notebook
 **Инструменты среды**
 |Инструмент|Версия|Комментарий|Ресурс|
 |:-|:-|:-|:-|
-|Python3|Python 3.13.7|Версия уже установлена в Ubuntu, устанавливать не требуется, просто проверить|https://www.python.org/|
+|Python3|Python 3.14.x|Версия уже установлена в Ubuntu, устанавливать дополнительно не требуется|https://www.python.org/|
 |Git|2.51.0|Git - распределённая система управления версиями. Разработчик: Software Freedom Conservancy, SFC |Репозиторий: https://git.kernel.org/pub/scm/git/git.git|
 |Java|openjdk-17|Openjdk-17 - это (Open Java Development Kit) - это бесплатная реализация платформы Java Standard Edition (Java SE) с открытым исходным кодом |https://openjdk.org/|
 |Scala|2.13.16|Проверенная стабильная версия, хорошо совместима с OoenJDK-17 (в качестве альтернативы можно использовать 2.12.20 )|https://scala-lang.org/|
