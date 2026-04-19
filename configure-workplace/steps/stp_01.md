@@ -9,8 +9,6 @@ sudo apt upgrade
 **Установка openjdk-17**
 ```console
 sudo apt-cache search openjdk | grep openjdk-17
-```  
-```console
 sudo apt install openjdk-17-jre
 sudo apt install openjdk-17-jdk
 ```  
