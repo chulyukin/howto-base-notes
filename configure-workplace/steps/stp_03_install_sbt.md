@@ -1,9 +1,5 @@
 # Настройка sbt
 
-_В этом случае, файл загружается в ручную (в текущем примере это:)_
-```console
-sudo wget https://repo1.maven.org/maven2/org/scala-sbt/sbt-launch/1.11.7/sbt-launch-1.11.7.jar 
-```
 _Файл нужно скопировать в папку по пути из сообщения:_
 ```console
 cp sbt-launch-1.11.7.jar ~/.cache/sbt/boot/sbt-launch/1.11.7/sbt-launch-1.11.7.jar
