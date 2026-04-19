@@ -1,6 +1,7 @@
 # Тестовый проект SBT
-Создать директорию проекта, файл сборки проекта и файл программы
+
 ```console
+# Создать директорию проекта, файл сборки проекта и файл программы
 mkdir -p ~/SBTProjects
 mkdir -p ~/SBTProjects/sbt_test_project
 cd ~/SBTProjects/sbt_test_project
