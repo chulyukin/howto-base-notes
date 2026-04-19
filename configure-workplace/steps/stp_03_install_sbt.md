@@ -27,7 +27,7 @@ https://mvnrepository.com/artifact/org.scala-lang/toolkit
 ```bash
 Select a template: a
 Scala version (default: 3.3.4): 2.13.16
-Scala Toolkit version (default: 0.5.0): 0.1.9
+Scala Toolkit version (default: 0.5.0): 0.3.0
 ```
 Далее, после успешного запуска sbt - необходимо завершить его
 ```sbt
