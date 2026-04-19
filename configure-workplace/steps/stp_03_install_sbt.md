@@ -1,11 +1,4 @@
 # Настройка sbt
-_Если выведено сообщение об ошибке, в котором будет имя отсутствующего файла и путь к нему._  
-_**Пример:**_  
-``` 
-cat: /home/user/.cache/sbt/boot/sbt-launch/1.11.7/sbt-launch-1.11.7.jar.sha1: Нет такого файла или каталога
-shasum: standard input: no properly formatted SHA checksum lines found
-failed to download launcher jar: https://repo1.maven.org/maven2/org/scala-sbt/sbt-launch/1.11.7/sbt-launch-1.11.7.jar (shasum mismatch) 
-```
 
 _В этом случае, файл загружается в ручную (в текущем примере это:)_
 ```console
