@@ -10,26 +10,21 @@
 
 Произвести проверку установленных пакетов. Если пакеты не соответствуют ожидаемым - желательно привести систему к требуемым версиям.
 
-### Версии Python, Java, Scala, SBT 
+### Версии Python, Scala, SBT 
 ```console
 python3 --version
 scala -version
 sbt -version
 ```
-В идеале, пакеты java, scala, sbt должны отсутствовать, а версия Python долэна быть не 3.14.x
+В идеале, пакеты scala, sbt должны отсутствовать, а версия Python долэна быть не 3.14.x
 
-### Установка Git
+### Установка Git и curl
 Если не установлены ранее, необходимо установить пакеты **Git** (для работы с репозиториями Git Hub) и **curl** (инструмент командной строки для работы с HTTP-запросами).  
 ```console
 sudo apt install git
-# Проверить версию
-git --version # git version 2.51.0
-```
-
-### Установка curl
-```console
 sudo snap install curl
 ```
+
 
 ### Последовательность шагов установки:  
 #### [Шаг 1. Установка JDK (Openjdk-17)](steps/stp_01.md)
@@ -72,7 +67,7 @@ https://github.com/jupyter/notebook
 |Инструмент|Версия|Комментарий|Ресурс|
 |:-|:-|:-|:-|
 |Python3|Python 3.14.x|Версия уже установлена в Ubuntu, устанавливать дополнительно не требуется|https://www.python.org/|
-|Git|2.51.0|Git - распределённая система управления версиями. Разработчик: Software Freedom Conservancy, SFC |Репозиторий: https://git.kernel.org/pub/scm/git/git.git|
+|Git| - |Git - распределённая система управления версиями. Разработчик: Software Freedom Conservancy, SFC |Репозиторий: https://git.kernel.org/pub/scm/git/git.git|
 |Java|openjdk-17|Openjdk-17 - это (Open Java Development Kit) - это бесплатная реализация платформы Java Standard Edition (Java SE) с открытым исходным кодом |https://openjdk.org/|
 |Scala|2.13.16|Проверенная стабильная версия, хорошо совместима с OoenJDK-17 (в качестве альтернативы можно использовать 2.12.20 )|https://scala-lang.org/|
 |SBT|1.11.7| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
