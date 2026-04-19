@@ -14,8 +14,7 @@ python3 --version  #
 ```
 
 ```console
-# Установка пакетов **Git** (для работы с Git Hub) и **curl** (инструмент командной строки для работы с HTTP-запросами).  
-
+# Установка пакетов Git (для работы с Git Hub) и curl (инструмент командной строки для работы с HTTP-запросами).  
 sudo apt install git
 sudo snap install curl
 ```
