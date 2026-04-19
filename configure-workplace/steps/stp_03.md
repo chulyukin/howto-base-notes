@@ -14,6 +14,12 @@ sudo apt-get install sbt
 ```console
 sbt -version
 ```
-_По неизвестным причинам, файл **sbt-launch-....jar** не загружался. Определить, какой нужен файл, можно средствами команды **sbt -version** или **sbt**._  
+_По неизвестным причинам, файл **sbt-launch-....jar** не загружался. Определить, требуемый файл, можно через **sbt -version** или **sbt**. Будеи выведено сообщение об ошибке, в котором будет имя отсутствующего файла и путь к нему._  
+_**Пример:**_  
+``` 
+cat: /home/user/.cache/sbt/boot/sbt-launch/1.12.9/sbt-launch-1.12.9.jar.sha1: Нет такого файла или каталога
+shasum: standard input: no properly formatted SHA checksum lines found
+failed to download launcher jar: https://repo1.maven.org/maven2/org/scala-sbt/sbt-launch/1.12.9/sbt-launch-1.12.9.jar (shasum mismatch) 
+```
 **[Решение проблем при установке и настройка sbt](stp_03_install_sbt.md)**  
 **[Сборка тестового проекта через sbt](stp_03_test_project_sbt.md)**  
