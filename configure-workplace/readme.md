@@ -13,7 +13,6 @@
 ### Версии Python, Java, Scala, SBT 
 ```console
 python3 --version
-java --version
 scala -version
 sbt -version
 ```
