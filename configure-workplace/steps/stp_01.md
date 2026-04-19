@@ -1,4 +1,5 @@
 # Шаг 1. Установка JDK (Openjdk-17) 
+JDK (Java Development Kit) — это комплект инструментов, для создания и запуска приложений на Java (Scala, Spark используют для исполнения JVM (Java Virtual Machine)).  
 
 **Обновление репозитория**
 ```console
