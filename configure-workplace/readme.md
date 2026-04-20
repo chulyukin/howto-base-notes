@@ -23,7 +23,6 @@ sudo snap install curl
 #### [Шаг 1. Установка Java Development Kit (JDK) (Openjdk-17)](steps/stp_01.md)
 *Время выполнения* - 5 мин.
 #### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
-Scala — язык программирования, основанный на Java. В данном случае устанавливается версия 2.13.16 (возможны вариации версии) для обеспечения совместимости с установкой Spark.  
 *Время выполнения* - 5 мин.
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
 SBT - это система автоматической сборки для проектов, написанных на языках Scala и Java. Подробнее можно прочитать в https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html.  
