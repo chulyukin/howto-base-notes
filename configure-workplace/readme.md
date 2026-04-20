@@ -60,7 +60,7 @@ https://github.com/jupyter/notebook
 |Python3|Python 3.14.x|Версия уже установлена в Ubuntu, устанавливать дополнительно не требуется|https://www.python.org/|
 |Java|openjdk-17|Openjdk-17 - это (Open Java Development Kit) - это бесплатная реализация платформы Java Standard Edition (Java SE) с открытым исходным кодом |https://openjdk.org/|
 |Scala|2.13.16|Проверенная стабильная версия, хорошо совместима с OoenJDK-17 (в качестве альтернативы можно использовать 2.12.20 )|https://scala-lang.org/|
-|SBT|1.11.7| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
+|SBT|1.12.9| Scala build tool. В качестве альтернативы можно использовать не ниже 1.6.1|https://scala-lang.org/|
 |IntelliJ IDEA|2025.2|JetBrains IntelliJ IDEA Community Edition 2025.2 - Cреда разработки для реализации Scala - проектов )|https://www.jetbrains.com/idea/|
 |Apache Spark|3.5.7|Фреймворк с открытым исходным кодом для реализации распределённой обработки данных, входящий в экосистему проектов Hadoop. |https://spark.apache.org/|
 |Jupyter Notebook|7.4.7|Интерактивный блокнот для выполнения кода на различных языках программирования.|https://jupyter.org/|
