@@ -29,7 +29,7 @@ sbt.version = 1.12.9
 ```scala
 ThisBuild / version := "0.1.0"
 
-ThisBuild / scalaVersion := "2.13.16"
+ThisBuild / scalaVersion := "2.13.17"
 
 lazy val root = (project in file("."))
   .settings(
