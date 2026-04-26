@@ -173,11 +173,11 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version 3.5.6
+   /__ / .__/\_,_/_/ /_/\_\   version 3.5.8
       /_/
 
-Using Python version 3.13.3 (main, Jun 16 2025 18:15:32)
-Spark context Web UI available at http://localhost:4042
-Spark context available as 'sc' (master = local[2], app id = local-1751142303797).
+Using Python version 3.14.4 (main, Apr  8 2026 04:02:31)
+Spark context Web UI available at http://localhost:4040
+Spark context available as 'sc' (master = local[2], app id = local-1777224633991).
 SparkSession available as 'spark'.
 ```
