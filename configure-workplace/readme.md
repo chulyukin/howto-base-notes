@@ -24,7 +24,6 @@ sudo snap install curl
 #### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
 *Время выполнения* - 5 мин.
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
-SBT - это система автоматической сборки для проектов, написанных на языках Scala и Java. Подробнее можно прочитать в https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html.  
 *Время выполнения* - 5 мин.
 #### [Шаг 4. IntelliJ IDEA. Установка, настройка и тестовые проекты](steps/stp_04.md)
 **IntelliJ IDEA** - это кросс-платформенная среда разработки, созданная компанией JetBrains, очень удобная для реализации Scala - проектов. https://www.jetbrains.com/idea/  
