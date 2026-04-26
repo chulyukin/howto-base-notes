@@ -22,7 +22,7 @@
 
 **Файл build.propeties**
 ```scala
-sbt.version = 1.11.7
+sbt.version = 1.12.9
 ```
 
 **Файл build.sbt** (*после каждой настройки не забыть оставить пустую строку*)
