@@ -76,7 +76,6 @@ deactivate
 ![_kernel_devpython.ipynb](notebooks/DEVPYTHON/__kernel_devpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/DEVPYTHON/)  
 ```console
 wget https://raw.githubusercontent.com/chulyukin/howto-base-notes\refs\configure-workplace/steps/notebooks/DEVPYTHON/__kernel_devpython.ipynb -O ~/WORKSHOP/DEVPYTHON/__kernel_devpython.ipynb
-
 ```
 
 ### Окружение Python ML
@@ -89,7 +88,9 @@ pip install pandas fastparquet matplotlib numpy scipy scikit-learn seaborn
 deactivate 
 ```
 ![_kernel_mlpython.ipynb](notebooks/MLPYTHON/__kernel_mlpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/MLPYTHON/)  
-
+```console
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/MLPYTHON/__kernel_mlpython.ipynb -O ~/WORKSHOP/MLPYTHON/__kernel_mlpython.ipynb
+```
 ### Окружение PyTorch
 ```console
 python3 -m venv pytorchenv
