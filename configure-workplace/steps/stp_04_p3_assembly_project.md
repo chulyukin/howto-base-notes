@@ -28,13 +28,13 @@ addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "2.3.0")
 ```
 **Файл build.propeties**
 ```scala
-sbt.version = 1.11.7
+sbt.version = 1.12.9
 ```
 **Файл build.sbt:**
 ```scala
 ThisBuild / version := "0.1.0"
 
-ThisBuild / scalaVersion := "2.13.16"
+ThisBuild / scalaVersion := "2.13.17"
 
 lazy val root = (project in file("."))
   .settings(
