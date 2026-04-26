@@ -75,7 +75,8 @@ deactivate
 ```
 ![_kernel_devpython.ipynb](notebooks/DEVPYTHON/__kernel_devpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/DEVPYTHON/)  
 ```console
-wget https://github.com/chulyukin/howto-base-notes/blob/DEVELOP/configure-workplace/steps/notebooks/DEVPYTHON/__kernel_devpython.ipynb -O ~/WORKSHOP/DEVPYTHON/__kernel_devpython.ipynb
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes\refs\configure-workplace/steps/notebooks/DEVPYTHON/__kernel_devpython.ipynb -O ~/WORKSHOP/DEVPYTHON/__kernel_devpython.ipynb
+
 ```
 
 ### Окружение Python ML
