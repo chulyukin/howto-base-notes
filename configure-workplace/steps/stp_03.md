@@ -1,5 +1,7 @@
 # Шаг 3. Scala Build Tool (SBT). Установка
 
+SBT - это система автоматической сборки для проектов, написанных на языках Scala и Java. Подробнее можно прочитать в https://docs.scala-lang.org/overviews/scala-book/scala-build-tool-sbt.html.
+
 ```console
 # Добавить репозитории
 echo "deb https://repo.scala-sbt.org/scalasbt/debian all main" | sudo tee /etc/apt/sources.list.d/sbt.list  
