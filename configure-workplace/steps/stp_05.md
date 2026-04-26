@@ -3,18 +3,18 @@
 sudo apt update
 sudo apt upgrade
 ```
-Скачать Apache Spark версии 3.5.7
+Скачать Apache Spark версии 3.5.8
 ```console
 cd ~
-wget https://dlcdn.apache.org/spark/spark-3.5.7/spark-3.5.7-bin-hadoop3-scala2.13.tgz
+wget https://dlcdn.apache.org/spark/spark-3.5.8/spark-3.5.8-bin-hadoop3-scala2.13.tgz
 ```
 Распаковать архив
 ```console
-tar xvf spark-3.5.7-bin-hadoop3-scala2.13.tgz
+tar xvf spark-3.5.8-bin-hadoop3-scala2.13.tgz
 ```
 Переместить в папку **/opt**
 ```console
-sudo mv spark-3.5.7-bin-hadoop3-scala2.13 /opt/spark
+sudo mv spark-3.5.8-bin-hadoop3-scala2.13 /opt/spark
 ```
 Прописать системные переменные
 ```console
@@ -36,7 +36,7 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 3.5.7
+   /___/ .__/\_,_/_/ /_/\_\   version 3.5.8
       /_/
          
 Using Scala version 2.13.8 (OpenJDK 64-Bit Server VM, Java 17.0.17-ea)
