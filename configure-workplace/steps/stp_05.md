@@ -39,12 +39,12 @@ Welcome to
    /___/ .__/\_,_/_/ /_/\_\   version 3.5.8
       /_/
          
-Using Scala version 2.13.8 (OpenJDK 64-Bit Server VM, Java 17.0.17-ea)
+Using Scala version 2.13.8 (OpenJDK 64-Bit Server VM, Java 17.0.18)
 Type in expressions to have them evaluated.
 Type :help for more information.
-25/11/03 09:07:13 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-Spark context Web UI available at http://Ubuntu2510:4040
-Spark context available as 'sc' (master = local[*], app id = local-1762160834771).
+26/04/26 10:07:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Spark context Web UI available at http://192.168.88.252:4040
+Spark context available as 'sc' (master = local[*], app id = local-1777193248296).
 Spark session available as 'spark'.
 scala> 
 ```
