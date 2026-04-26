@@ -20,7 +20,6 @@ sudo snap install curl
 
 ### Последовательность шагов установки:  
 #### [Шаг 1. Установка Java Development Kit (JDK) (Openjdk-17)](steps/stp_01.md)
-*Время выполнения* - 5 мин.
 #### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
 *Время выполнения* - 5 мин.
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
