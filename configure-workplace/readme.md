@@ -9,8 +9,7 @@
  - Jupyter Notebook c "ядрами" для работы с python, pyspark, pytorch, scala, spark (scala - Apache Toree)
 
 ```console
-# Проверка версии Python -  должна быть не ниже 3.14.x
-python3 --version  #
+python3 --version  # Проверка версии Python -  должна быть не ниже 3.14.x
 ```
 
 ```console
