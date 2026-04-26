@@ -101,7 +101,9 @@ pip install pandas fastparquet matplotlib numpy scipy scikit-learn seaborn
 deactivate
 ```
 ![_kernel_pytorch.ipynb](notebooks/PYTORCH/__kernel_pytorch.ipynb) Notebook с установкой torch (положить в ~/WORKSHOP/MLPYTHON/)  
-
+```console
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYTORCH/__kernel_pytorch.ipynb -O ~/WORKSHOP/PYTORCH/__kernel_pytorch.ipynb
+```
 ### Окружение PySpark
 ```console
 python3 -m venv pysparkenv
