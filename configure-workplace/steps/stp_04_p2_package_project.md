@@ -7,8 +7,8 @@
 |Name|ColorHelloScala|
 |Build System|sbt|
 |JDK|17|
-|sbt|1.11.7|
-|Scala|2.13.16|
+|sbt|1.12.9|
+|Scala|2.13.17|
 |Download sources|Выбрано|
 |Add sample code|*по желанию*
 
