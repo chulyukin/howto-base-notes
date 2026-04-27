@@ -28,21 +28,20 @@ spark-shell
 ```
 Появится вывод:
 ```console
-Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
 Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /___/ .__/\_,_/_/ /_/\_\   version 3.5.8
+   /___/ .__/\_,_/_/ /_/\_\   version 4.1.1
       /_/
          
-Using Scala version 2.13.8 (OpenJDK 64-Bit Server VM, Java 17.0.18)
+Using Scala version 2.13.17 (OpenJDK 64-Bit Server VM, Java 17.0.18)
 Type in expressions to have them evaluated.
 Type :help for more information.
-26/04/26 10:07:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/04/27 20:33:57 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 Spark context Web UI available at http://192.168.88.252:4040
-Spark context available as 'sc' (master = local[*], app id = local-1777193248296).
+Spark context available as 'sc' (master = local[*], app id = local-1777311237799).
 Spark session available as 'spark'.
 scala> 
 ```
