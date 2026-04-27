@@ -1,4 +1,5 @@
 # Шаг 4. IntelliJ IDEA. Установка, настройка и тестовые проекты
+IntelliJ IDEA - это кросс-платформенная среда разработки, созданная компанией JetBrains, очень удобная для реализации Scala - проектов. https://www.jetbrains.com/idea/
 ## Установка IntelliJ IDEA
 Установить  **IntelliJ IDEA** можно через центр приложений Ubuntu. На данный момент устанавливается IntelliJ IDEA Community Edition версии 2025.2 - это свободная версия, доступная под лицензией Apache 2.0.
 https://www.apache.org/licenses/LICENSE-2.0
