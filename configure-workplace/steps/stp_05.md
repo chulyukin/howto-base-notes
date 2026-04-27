@@ -3,14 +3,12 @@
 sudo apt update
 sudo apt upgrade
 ```
-Скачать Apache Spark версии 3.5.8
+Скачать Apache Spark версии 4.1.1
 ```console
 cd ~
-wget https://dlcdn.apache.org/spark/spark-3.5.8/spark-3.5.8-bin-hadoop3-scala2.13.tgz
-```
-Распаковать архив
-```console
-tar xvf spark-3.5.8-bin-hadoop3-scala2.13.tgz
+wget https://dlcdn.apache.org/spark/spark-4.1.1/spark-4.1.1-bin-hadoop3.tgz
+# Распаковать архив
+tar xvf spark-4.1.1-bin-hadoop3.tgz
 ```
 Переместить в папку **/opt**
 ```console
