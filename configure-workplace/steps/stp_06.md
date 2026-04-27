@@ -147,7 +147,7 @@ nano ~/.local/share/jupyter/kernels/pysparkenv/kernel.json
 ![_kernel_pyspark.ipynb](notebooks/PYSPARK/__kernel_pyspark.ipynb) Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/PYSPARK/)  
 ![__example_pyspark.ipynb](notebooks/PYSPARK/__example_pyspark.ipynb) Notebook с пирмером запуска spark сессии  (положить в ~/WORKSHOP/PYSPARK/)  
 ```console
-wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYSPARK/__kernel_pyspark.ipynb -O ~/WORKSHOP/PYSPARK/__kernel_pytorch.ipynb
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYSPARK/__kernel_pyspark.ipynb -O ~/WORKSHOP/PYSPARK/__kernel_pyspark.ipynb
 wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYSPARK/__example_pyspark.ipynb -O ~/WORKSHOP/PYSPARK/__example_pyspark.ipynb
 ```
 Пример запуска spark сессии:
