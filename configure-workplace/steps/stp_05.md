@@ -12,7 +12,7 @@ tar xvf spark-4.1.1-bin-hadoop3.tgz
 ```
 Переместить в папку **/opt**
 ```console
-sudo mv spark-3.5.8-bin-hadoop3-scala2.13 /opt/spark
+sudo mv spark-4.1.1-bin-hadoop3 /opt/spark
 ```
 Прописать системные переменные
 ```console
