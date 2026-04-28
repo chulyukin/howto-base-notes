@@ -8,7 +8,7 @@ mkdir -p ~/WORKSHOP/SCALA_ALMOND # для проектов Scala
 curl -Lo coursier https://git.io/coursier-cli
 chmod +x coursier
 sudo mv coursier /usr/local/bin
-coursier launch --fork almond:0.14.1 --scala 2.13.17 -- --install 
+coursier launch --fork almond --scala 2.13.17 -- --install 
 ```  
 
 **Notebooks** (положить в ~/WORKSHOP/SCALA_ALMOND/):
