@@ -12,7 +12,7 @@ coursier launch --fork almond --scala 2.13.17 -- --install --force
 ```  
 
 **Notebooks** (положить в ~/WORKSHOP/SCALA_ALMOND/):
-|Notebook|Комментарий|
-|:-|:-|
-|[__kernel_scalalmond.ipynb](notebooks/SCALA_ALMOND/__kernel_scalalmond.ipynb)|Тестовый Notebook с параметрами ядра|
-|[__scalalmond_example_add_external_code.ipynb](notebooks/SCALA_ALMOND/__scalalmond_example_add_external_code.ipynb)|Тестовый Notebook c примерами добавления внешних файлов кода для Almond Scala (magics Ammonite)|
+|Notebook|Комментарий|Установка|
+|:-|:-|:-|
+|[__kernel_scalalmond.ipynb](notebooks/SCALA_ALMOND/__kernel_scalalmond.ipynb)|Тестовый Notebook с параметрами ядра|```wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/SCALA_ALMOND/__kernel_scalalmond.ipynb -O ~/WORKSHOP/SCALA_ALMOND/__kernel_scalalmond.ipynb```|
+|[__scalalmond_example_add_external_code.ipynb](notebooks/SCALA_ALMOND/__scalalmond_example_add_external_code.ipynb)|Тестовый Notebook c примерами добавления внешних файлов кода для Almond Scala (magics Ammonite)||
