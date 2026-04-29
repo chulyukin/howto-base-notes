@@ -1,4 +1,7 @@
 # Шаг 5. Apache Spark. Установка
+**Apache Spark** - фреймворк для реализации распределённой обработки данных, входящий в экосистему проектов Hadoop. Представлен интерфейсами языков Java, Scala, Python, R. https://spark.apache.org  
+
+
 ```console
 sudo apt update
 sudo apt upgrade
