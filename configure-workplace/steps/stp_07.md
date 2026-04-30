@@ -11,6 +11,31 @@ sudo mv coursier /usr/local/bin
 coursier launch --fork almond --scala 2.13.17 -- --install --force
 ```  
 
+Скорректировать файл **kernel.json**:
+
+```console
+ nano ~/.local/share/jupyter/kernels/scala/kernel.json
+```
+
+```json
+{
+  "argv": [
+    "java",
+    "--add-opens=java.base/java.net=ALL-UNNAMED", 
+    "-cp",
+    "/home/user/.local/share/jupyter/kernels/scala/launcher.jar",
+    "coursier.bootstrap.launcher.Launcher",
+    "--connection-file",
+    "{connection_file}"
+  ],
+  "display_name": "Scala",
+  "language": "scala"
+}
+```
+*добавить строчку после "java": "--add-opens=java.base/java.net=ALL-UNNAMED",  
+**вместо **user** - должно быть имя (login) пользователя системы
+
+
 **Notebooks** (положить в ~/WORKSHOP/SCALA_ALMOND/):  
 
 [__kernel_scalalmond.ipynb](notebooks/SCALA_ALMOND/__kernel_scalalmond.ipynb) - Тестовый Notebook с параметрами ядра  
