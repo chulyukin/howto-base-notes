@@ -55,5 +55,3 @@ sudo snap install curl
 |Apache Spark|4.1.1|Фреймворк с открытым исходным кодом для реализации распределённой обработки данных, входящий в экосистему проектов Hadoop. |https://spark.apache.org/|
 |Jupyter Notebook|7.5.5|Интерактивный блокнот для выполнения кода на различных языках программирования.|https://jupyter.org/|
 |Scala Almond|0.14.5|Ядро Scala для Jupyter. Представляет собой оболочку Scala (Ammonite) для Jupyter|https://almond.sh/|
-|Apache Toree|0.5.0|Ядро Scala для Jupyter Notebook. Предоставляет механизм для интерактивного и удалённого доступа к Apache Spark.|https://toree.apache.org/|
-
