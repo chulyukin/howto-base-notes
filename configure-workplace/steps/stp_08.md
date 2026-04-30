@@ -1,4 +1,4 @@
-# Шаг 9. Сборка и запуск тестового проекта Spark средствами SBT assembly. 
+# Шаг 8. Сборка и запуск тестового проекта Spark средствами SBT assembly. 
 Описание общего подхода к созданию небольших и средних проектов Scala Apache Spark (сборщик SBT Assembly) представлено на примере демонстрационного проекта **spark-simple-parquet - Демо-проект Scala Spark для сборщика SBT Aassembly . Приложение — конвертер файлов формата parquet в формат csv.**  
 Код и описание проекта находится репозитории: https://github.com/chulyukin/spark-simple-parquet .  
 
