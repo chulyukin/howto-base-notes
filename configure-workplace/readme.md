@@ -22,13 +22,12 @@ sudo snap install curl
 #### [Шаг 1. Установка Java Development Kit (JDK) (Openjdk-17)](steps/stp_01.md)
 #### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
-*Время выполнения* - 10 мин.
 #### [Шаг 4. IntelliJ IDEA. Установка, настройка и тестовые проекты](steps/stp_04.md)
-*Время выполнения* - 20 мин.
+*Время выполнения* - 25 мин.
 #### [Шаг 5. Apache Spark. Установка](steps/stp_05.md)
 *Время выполнения* - 15 мин.
 #### [Шаг 6. Установка и настройка Jupyter Notebook](steps/stp_06.md)
-*Время выполнения* - 40 мин.
+*Время выполнения* - 35 мин.
 #### [Шаг 7. Jupyter Notebook. Установка и настройка Scala kernel Almond ](steps/stp_07.md)
 **Scala Almond** — это ядро Scala для Jupyter. Для созданния документов, содержащих исполняемый код на Scala с текстовыми пояснениями и графикой. 
 Проект в Git: https://github.com/almond-sh/almond  
