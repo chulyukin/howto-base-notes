@@ -23,9 +23,8 @@ sudo snap install curl
 #### [Шаг 2. Установка Scala 2.13](steps/stp_02.md)
 #### [Шаг 3. Scala Build Tool (SBT). Установка](steps/stp_03.md)
 #### [Шаг 4. IntelliJ IDEA. Установка, настройка и тестовые проекты](steps/stp_04.md)
-*Время выполнения* - 25 мин.
 #### [Шаг 5. Apache Spark. Установка](steps/stp_05.md)
-*Время выполнения* - 15 мин.
+*Время выполнения** (Шаг 1 - Шаг 5) - 35 мин.
 #### [Шаг 6. Установка и настройка Jupyter Notebook](steps/stp_06.md)
 *Время выполнения* - 35 мин.
 #### [Шаг 7. Jupyter Notebook. Установка и настройка Scala kernel Almond ](steps/stp_07.md)
@@ -33,10 +32,10 @@ sudo snap install curl
 #### [Шаг 8. Сборка и запуск тестового проекта Spark средствами SBT assembly. ](steps/stp_08.md)
 Сборка небольшого проекта Scala Apache Spark (сборщик SBT Assembly) на примере демонстрационного проекта для сборщика SBT Aassembly . Приложение — конвертер файлов формата parquet в формат csv.
 Код и описание проекта находится репозитории: https://github.com/chulyukin/spark-simple-parquet .  
-*Время выполнения* - 40 мин.
+*Время выполнения* - 35 мин.
 #### [Шаг 9. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. ](steps/stp_9.md)
 Еще один демо-проект Scala Spark для сборщика SBT Aassembly. Приложение "Parquetor" - конвертер файлов формата parquet в формат csv с консольным оконным интерфейсом. Код и описание проекта находится репозитории: https://github.com/chulyukin/parquetor_spark .  
-*Время выполнения* - 50 мин.  
+*Время выполнения* - 45 мин.  
 
 ## В результате выполнения шагов:
 **Инструменты среды**
