@@ -1,4 +1,4 @@
-# Шаг 10. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. 
+# Шаг 9. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. 
 Конслоное приложение с оконным интрефейсом c bcgjkmpjdfybt  Apache Spark (сборщик SBT Assembly) представлено на примере демонстрационного проекта **spark-simple-parquet - Демо-проект Scala Spark для сборщика SBT Aassembly . Приложение — конвертер файлов формата parquet в формат csv.**  
 Код и описание проекта находится репозитории: https://github.com/chulyukin/parquetor_spark .  
 
