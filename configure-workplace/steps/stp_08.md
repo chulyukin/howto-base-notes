@@ -68,20 +68,20 @@ sbt.version = 1.12.9
 ```scala
 import sbt.Keys.organization
 
-ThisBuild / version := "0.1.1" // Здесь задать версию сборки проекта
+ThisBuild / version := "0.1.2" // Здесь задать версию сборки проекта
  
-ThisBuild / scalaVersion := "2.12.20"  // Здесь задать версию scala для сборки
+ThisBuild / scalaVersion := "2.13.17"  // Здесь задать версию scala для сборки
 
 lazy val root = (project in file("."))
   .settings(
     name := "<appliction name>",
     organization := "com.simple"
-  ) // Организация и имя приложения (в данном случае исполняемый файл будет иметь имя <appliction name>-assembly-0.1.1.jar  )
+  ) // Организация и имя приложения (в данном случае исполняемый файл будет иметь имя <appliction name>-assembly-0.1.2.jar  )
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % "3.5.6",
-  "org.apache.spark" %% "spark-sql" % "3.5.6"
-) // Зависимости, которые нужно загрузить для использования Spark 3.5.6
+  "org.apache.spark" %% "spark-core" % "4.1.1",
+  "org.apache.spark" %% "spark-sql" % "4.1.1"
+) // Зависимости, которые нужно загрузить для использования Spark 4.1.1
  
 assembly / assemblyMergeStrategy := {
   case PathList("META-INF", "services", _*) => MergeStrategy.concat
