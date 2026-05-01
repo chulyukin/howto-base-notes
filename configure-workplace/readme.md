@@ -29,8 +29,6 @@ sudo snap install curl
 #### [Шаг 6. Установка и настройка Jupyter Notebook](steps/stp_06.md)
 *Время выполнения* - 35 мин.
 #### [Шаг 7. Jupyter Notebook. Установка и настройка Scala kernel Almond ](steps/stp_07.md)
-**Scala Almond** — это ядро Scala для Jupyter. Для созданния документов, содержащих исполняемый код на Scala с текстовыми пояснениями и графикой. 
-Проект в Git: https://github.com/almond-sh/almond  
 *Время выполнения* - 15 мин.
 #### [Шаг 8. Сборка и запуск тестового проекта Spark средствами SBT assembly. ](steps/stp_08.md)
 Сборка небольшого проекта Scala Apache Spark (сборщик SBT Assembly) на примере демонстрационного проекта для сборщика SBT Aassembly . Приложение — конвертер файлов формата parquet в формат csv.
