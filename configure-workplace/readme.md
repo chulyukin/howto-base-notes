@@ -36,7 +36,7 @@ sudo snap install curl
 Сборка небольшого проекта Scala Apache Spark (сборщик SBT Assembly) на примере демонстрационного проекта для сборщика SBT Aassembly . Приложение — конвертер файлов формата parquet в формат csv.
 Код и описание проекта находится репозитории: https://github.com/chulyukin/spark-simple-parquet .  
 *Время выполнения* - 40 мин.
-#### [Шаг 9. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. ](steps/stp_10.md)
+#### [Шаг 9. Сборка и запуск тестового проекта Apache Spark в IntelliJ IDEA. ](steps/stp_9.md)
 Еще один демо-проект Scala Spark для сборщика SBT Aassembly. Приложение "Parquetor" - конвертер файлов формата parquet в формат csv с консольным оконным интерфейсом. Код и описание проекта находится репозитории: https://github.com/chulyukin/parquetor_spark .  
 *Время выполнения* - 50 мин.  
 
