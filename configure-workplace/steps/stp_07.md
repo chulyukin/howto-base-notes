@@ -1,4 +1,6 @@
 # Шаг 7. Jupyter Notebook. Установка и настройка Scala kernel Almond 
+**Scala Almond** — это ядро Scala для Jupyter. Для созданния документов, содержащих исполняемый код на Scala с текстовыми пояснениями и графикой. 
+Проект в Git: https://github.com/almond-sh/almond  
 Создать директорию для проектов Scala
 ```console
 mkdir -p ~/WORKSHOP/SCALA_ALMOND # для проектов Scala
