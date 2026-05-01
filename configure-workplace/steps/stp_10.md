@@ -4,7 +4,7 @@
 
 Загрузить проект из репозитория
 ```console
-cd ~/SBTProjects
+cd ~/IdeaProjects
 git clone https://github.com/chulyukin/parquetor_spark.git
 ```  
 (Или можно воспользоваться интерфейсом загрузки из Idea)   
