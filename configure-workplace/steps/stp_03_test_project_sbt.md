@@ -1,6 +1,7 @@
 # Тестовый проект SBT
-Создать директорию проекта, файл сборки проекта и файл программы
+
 ```console
+# Создать директорию проекта, файл сборки проекта и файл программы
 mkdir -p ~/SBTProjects
 mkdir -p ~/SBTProjects/sbt_test_project
 cd ~/SBTProjects/sbt_test_project
@@ -31,7 +32,7 @@ sbt run
 ```
 Будет произведена сборка, создан исполняемый файл **hellosbt_2.13-1.0.jar** (по пути  ~/SBTProjects/sbt_test_project/target/scala-2.13/),а так же будет произведен запуск файла и вывод строки: "Hello SBT!"
 ```sbt
-[info] welcome to sbt 1.11.7 (Ubuntu Java 17.0.17-ea)
+[info] welcome to sbt 1.12.9 (Ubuntu Java 17.0.18)
 [info] loading project definition from /home/user/SBTProjects/sbt_test_project/project
 [info] loading settings for project sbt_test_project from build.sbt...
 [info] set current project to HelloSBT (in build file:/home/user/SBTProjects/sbt_test_project/)
@@ -44,10 +45,9 @@ Hello SBT!
 Так же можно воспользоваться интерактивным режимом
 ```console
 sbt
-# [info] welcome to sbt 1.11.7 (Ubuntu Java 17.0.17-ea)
+# [info] welcome to sbt 1.12.9 (Ubuntu Java 17.0.18)
 # [info] loading project definition from /home/user/SBTProjects/sbt_test_project/project
 # [info] loading settings for project sbt_test_project from build.sbt...
-# [info] set current project to HelloSBT (in build file:/home/user/SBTProjects/sbt_test_project/)
 # ...
 # [info] started sbt server
 ```

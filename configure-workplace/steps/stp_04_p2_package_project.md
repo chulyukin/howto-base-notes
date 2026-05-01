@@ -7,8 +7,8 @@
 |Name|ColorHelloScala|
 |Build System|sbt|
 |JDK|17|
-|sbt|1.11.7|
-|Scala|2.13.16|
+|sbt|1.12.9|
+|Scala|2.13.17|
 |Download sources|Выбрано|
 |Add sample code|*по желанию*
 
@@ -22,14 +22,14 @@
 
 **Файл build.propeties**
 ```scala
-sbt.version = 1.11.7
+sbt.version = 1.12.9
 ```
 
 **Файл build.sbt** (*после каждой настройки не забыть оставить пустую строку*)
 ```scala
 ThisBuild / version := "0.1.0"
 
-ThisBuild / scalaVersion := "2.13.16"
+ThisBuild / scalaVersion := "2.13.17"
 
 lazy val root = (project in file("."))
   .settings(

@@ -1,5 +1,8 @@
 # Шаг 6. Установка и настройка Jupter Notebook
 ## Установка jupyter Notebook
+**Jupter Notebook** - это интерактивная  веб-среда для созданния документов, содержащих исполняемый код с текстовыми пояснениями и графикой. Среда подходит для проверки гипотез, создания прототипов, отладки и презентации решений на python, scala, R и др.  
+https://github.com/jupyter/notebook  
+
 ### Подготовка к установке
 ```console
 sudo apt update
@@ -51,10 +54,8 @@ Cделать файл исполняемым через меню по "прав
 ```console
 sudo chmod +x "$(xdg-user-dir DESKTOP)/Jupyter_launch.sh"
 ```
-Файл будет на рабочем столе и теперь можно запустить Jupyter Notebook (правая кнопка мыши -> Запустить как программу)
-
-Проверить работоспособность. 
-![Jupyter test](stp_06_pic/stp_06_jupyter_scr_01.png "Jupyter test")   
+Файл будет на рабочем столе и теперь можно запустить Jupyter Notebook (правая кнопка мыши -> Запустить как программу)  
+(Рекомендуется проверить работоспособность)  
 
 ## Создание целевых окружений для использования
 Будут созданы 4 окружения:
@@ -74,6 +75,9 @@ pip install pandas fastparquet matplotlib
 deactivate
 ```
 ![_kernel_devpython.ipynb](notebooks/DEVPYTHON/__kernel_devpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/DEVPYTHON/)  
+```console
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes\refs\configure-workplace/steps/notebooks/DEVPYTHON/__kernel_devpython.ipynb -O ~/WORKSHOP/DEVPYTHON/__kernel_devpython.ipynb
+```
 
 ### Окружение Python ML
 ```console
@@ -85,7 +89,9 @@ pip install pandas fastparquet matplotlib numpy scipy scikit-learn seaborn
 deactivate 
 ```
 ![_kernel_mlpython.ipynb](notebooks/MLPYTHON/__kernel_mlpython.ipynb) - Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/MLPYTHON/)  
-
+```console
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/MLPYTHON/__kernel_mlpython.ipynb -O ~/WORKSHOP/MLPYTHON/__kernel_mlpython.ipynb
+```
 ### Окружение PyTorch
 ```console
 python3 -m venv pytorchenv
@@ -96,15 +102,17 @@ pip install pandas fastparquet matplotlib numpy scipy scikit-learn seaborn
 deactivate
 ```
 ![_kernel_pytorch.ipynb](notebooks/PYTORCH/__kernel_pytorch.ipynb) Notebook с установкой torch (положить в ~/WORKSHOP/MLPYTHON/)  
-
+```console
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYTORCH/__kernel_pytorch.ipynb -O ~/WORKSHOP/PYTORCH/__kernel_pytorch.ipynb
+```
 ### Окружение PySpark
 ```console
 python3 -m venv pysparkenv
 source pysparkenv/bin/activate
 python3 -m pip install ipykernel
 python -m ipykernel install --user --name=pysparkenv --display-name "PySpark"
-pip install pyspark==3.5.6 # Установить PySpark 3.5.6
-pip install pandas fastparquet matplotlib 
+pip install pyspark==4.1.1 # Установить PySpark 4.1.1
+pip install pandas fastparquet matplotlib pyarrow
 deactivate
 ```
 Установить переменные виртуального окружения
@@ -139,8 +147,10 @@ nano ~/.local/share/jupyter/kernels/pysparkenv/kernel.json
 ```
 ![_kernel_pyspark.ipynb](notebooks/PYSPARK/__kernel_pyspark.ipynb) Notebook с подсказками по параметрам ядра (положить в ~/WORKSHOP/PYSPARK/)  
 ![__example_pyspark.ipynb](notebooks/PYSPARK/__example_pyspark.ipynb) Notebook с пирмером запуска spark сессии  (положить в ~/WORKSHOP/PYSPARK/)  
-
-
+```console
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYSPARK/__kernel_pyspark.ipynb -O ~/WORKSHOP/PYSPARK/__kernel_pyspark.ipynb
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/configure-workplace/steps/notebooks/PYSPARK/__example_pyspark.ipynb -O ~/WORKSHOP/PYSPARK/__example_pyspark.ipynb
+```
 Пример запуска spark сессии:
 ```python
 import os
@@ -166,11 +176,11 @@ Welcome to
       ____              __
      / __/__  ___ _____/ /__
     _\ \/ _ \/ _ `/ __/  '_/
-   /__ / .__/\_,_/_/ /_/\_\   version 3.5.6
+   /__ / .__/\_,_/_/ /_/\_\   version 4.1.1
       /_/
 
-Using Python version 3.13.3 (main, Jun 16 2025 18:15:32)
-Spark context Web UI available at http://localhost:4042
-Spark context available as 'sc' (master = local[2], app id = local-1751142303797).
+Using Python version 3.14.4 (main, Apr  8 2026 04:02:31)
+Spark context Web UI available at http://localhost:4041
+Spark context available as 'sc' (master = local[2], app id = local-1777314473871).
 SparkSession available as 'spark'.
 ```
