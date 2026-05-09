@@ -18,6 +18,14 @@
 |:-|:-|
 |[pyspark-pandas-udf-scalar](martload_sys_flags_v1.ipynb)|Пример использования скалярных pandas UDF |
 
+```console
+mkdir -p ~/WORKSHOP/
+mkdir -p ~/WORKSHOP/SCALA_ALMOND/
+mkdir -p ~/WORKSHOP/SCALA_ALMOND/data/
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/datamart-change-flag-example/martload_sys_flags_v1.ipynb -O ~/WORKSHOP//SCALA_ALMOND/martload_sys_flags_v1.ipynb
+wget https://raw.githubusercontent.com/chulyukin/howto-base-notes/refs/heads/main/datamart-change-flag-example/data/source_for_test.parquet -O ~/WORKSHOP//SCALA_ALMOND/data/source_for_test.parquet
+```
+
 ## Requirements
 |Инструмент|Версия|Комментарий|Ресурс|
 |:-|:-|:-|:-|
