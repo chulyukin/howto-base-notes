@@ -9,15 +9,3 @@
 |[pyspark-pandas-udf](pyspark-pandas-udf/readme.md)|2025-11-23|PySpark pandas_udf. Примеры использования.|
 |[datamart-change-flag-example](datamart-change-flag-example/readme.md)|2026-05-10|Scala. Spark. Обновление данных таблицы витрины с подсчетом системных флагов.|
 
-```console
-.
-├── configure-workplace
-│   ├── readme.md
-│   └── ....
-├── pyspark-pandas-udf
-│   ├── readme.md
-│   └── ....
-.
-.
-.
-```
