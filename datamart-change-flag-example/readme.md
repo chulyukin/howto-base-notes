@@ -16,7 +16,7 @@
 ## Notebooks
 |Notebook|Описание|
 |:-|:-|
-|[pyspark-pandas-udf-scalar](pyspark_pandas_udf_scalar.ipynb)|Пример использования скалярных pandas UDF |
+|[pyspark-pandas-udf-scalar](martload_sys_flags_v1.ipynb)|Пример использования скалярных pandas UDF |
 
 ## Requirements
 |Инструмент|Версия|Комментарий|Ресурс|
